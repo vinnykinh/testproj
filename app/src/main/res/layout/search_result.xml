@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cardba"
+    android:layout_margin="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_back"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title_of_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Title of the results "
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+
+
+        <TextView
+            android:id="@+id/name_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Patient name"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/age_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Age of the patient"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/gender_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Gender of patient"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tb_risk_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+
+            android:text="TB Risk Level"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/recommendation_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Recommendation"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/details_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+
+            android:text="Details"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Date and Time" />
+
+
+        <Button
+            android:id="@+id/buy_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button"
+            android:text="Buy Medicine"
+            android:textAllCaps="false"
+            android:textSize="10dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

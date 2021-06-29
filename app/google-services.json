@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "166144598515",
+    "project_id": "selfmed",
+    "storage_bucket": "selfmed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166144598515:android:8f0921ec43d0acdb163286",
+        "android_client_info": {
+          "package_name": "com.example.selfmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166144598515-vnk4pbl9918aa01t94hrje0q0ke3b61g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRhrRL8vAoPS7MesiwmuJxlC2NkoMv43Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166144598515-vnk4pbl9918aa01t94hrje0q0ke3b61g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

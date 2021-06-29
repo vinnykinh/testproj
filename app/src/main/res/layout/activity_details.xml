@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/slide_1"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/title_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Introduction"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+
+        app:layout_constraintStart_toStartOf="@+id/hello"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_intro"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:text="Hello!"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="@+id/image_intro"
+        app:layout_constraintTop_toBottomOf="@+id/title_intro" />
+
+
+    <ImageView
+        android:id="@+id/image_intro"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/slide_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hello" />
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_intro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="You’re about to use a short (3 min), safe and anonymous health checkup. Your answers will be carefully analyzed and you’ll learn about possible causes of your symptoms."
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/image_intro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/image_intro"
+        app:layout_constraintTop_toBottomOf="@+id/image_intro" />
+
+    <TextView
+        android:id="@+id/interview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/explanation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Interview ID:"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/explanation"
+        app:layout_constraintTop_toBottomOf="@+id/explanation" />
+
+
+    <Button
+        android:id="@+id/next_btn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button"
+        android:text="Next"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explanation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:title="Self-Examination"
+        android:icon="@drawable/home"
+        android:id="@+id/home"/>
+    <item
+        android:title="Search For Symptoms"
+        android:icon="@drawable/ic_search_24px"
+        android:id="@+id/search"/>
+
+    <item
+        android:title="Learn More"
+        android:icon="@drawable/classroom"
+        android:id="@+id/learnmore"/>
+
+</group>
+
+<item android:title="">
+    <menu>
+
+
+        <group android:checkableBehavior="single">
+            <item android:title="Settings"
+                android:id="@+id/setting"
+                android:icon="@drawable/admin"
+                />
+            <item android:title="Notification"
+                android:id="@+id/support"
+                android:icon="@mipmap/bell"/>
+            <item android:id="@+id/Log_out"
+                android:title="Log Out"
+                android:icon="@drawable/ic_baseline_lock_24"
+                />
+        </group>
+    </menu>
+</item>
+
+
+</menu>

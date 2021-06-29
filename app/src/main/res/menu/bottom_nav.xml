@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/results"
+        android:title="Results"
+        android:icon="@drawable/ic_baseline_insert_drive_file_24"/>
+
+    <item
+        android:id="@+id/Location"
+        android:title="Nearby centers"
+        android:icon="@drawable/ic_baseline_edit_location_24"/>
+    <item
+        android:id="@+id/learnmore_res"
+        android:title="learn"
+        android:icon="@drawable/ic_baseline_read_more_24"/>
+
+</menu>
